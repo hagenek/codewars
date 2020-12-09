@@ -2,5 +2,12 @@
   "name": "villain",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  },
+  "scripts" : {
+    "test": "mocha ."
+  }
 }
